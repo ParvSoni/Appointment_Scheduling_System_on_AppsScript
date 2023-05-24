@@ -6,3 +6,6 @@ To make this Project following are the steps :-
 * Now make Script File with file extension of html and copy html code in it. 
 * You have to set two triggers one on OnEdit function as OnEdit trigger which triggers the function when sheet gets edited and another trigger on OnFormSubmission function as OnFormSubmission trigger which triggers the function when new form gets submitted. 
 * Click on save project button and you are good to go.
+
+# Video Description of the Project 
+[recording-2023-05-18-11-21-16.webm.webm](https://github.com/ParvSoni/Appointment-Scheduling-System-on-AppsScript/assets/123165567/e855a4fe-afc4-4262-bfc1-9baa81e205f8)
