@@ -2,7 +2,7 @@ var ss = SpreadsheetApp.getActiveSpreadsheet();
 var sheet = ss.getActiveSheet();
 var lastRow = sheet.getLastRow();
 var lastColumn = sheet.getLastColumn();
-var calendar = CalendarApp.getCalendarById('parvsoni2003@gmail.com');
+var calendar = CalendarApp.getCalendarById('calender id');
 
 
 // function to read all the values
@@ -39,7 +39,7 @@ function getConflicts(request) {
 
 // function to know what type of e-mail id going to sent
 function draftEmail(request){
-  request.buttonLink = "https://docs.google.com/forms/d/e/1FAIpQLSdhICQxoLbyh4c6_dXLzZigh4t2B4A6hPe42HvGHX0yf225Xg/viewform?usp=sf_link"
+  request.buttonLink = "Form link"
   request.buttonText = "New Request";
   switch (request.status) {
     case "New":
@@ -52,7 +52,7 @@ function draftEmail(request){
       request.subject = "New Request for " + request.dateString;
       request.header = "Request Received";
       request.message = "A new request needs to be reviewed.";
-      request.buttonLink = "https://docs.google.com/spreadsheets/d/15AbfWFRi6YvTJirZlqm3lOhu9pkTAyv8EtY9gQUcQkY/edit?usp=sharing";
+      request.buttonLink = "Google sheet link";
       request.buttonText = "View Request";
       break;
     case "Approve":
