@@ -48,7 +48,7 @@ function draftEmail(request){
       request.message = "Once the request has been reviewed you will receive an email updating you on it.";
       break;
     case "New2":
-      request.email = "parvsoni2003@gmail.com";
+      request.email = "Email-Id";
       request.subject = "New Request for " + request.dateString;
       request.header = "Request Received";
       request.message = "A new request needs to be reviewed.";
