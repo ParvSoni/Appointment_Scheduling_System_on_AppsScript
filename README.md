@@ -27,7 +27,7 @@ If a new client submits a form for an appointment on a date and time that's alre
 The email includes a reschedule button that allows the client to select an alternative appointment slot.
 ### Customization:
 
-The system allows for customization of the doctor's personal Gmail address and the duration of appointment slots, making it adaptable to different professionals' needs.
+The system allows for customization of the doctor's personal Gmail address and the duration of appointment slots, making it adaptable to different professional's needs.
 
 # Video Description of the Project 
 [recording-2023-05-18-11-21-16.webm.webm](https://github.com/ParvSoni/Appointment-Scheduling-System-on-AppsScript/assets/123165567/e855a4fe-afc4-4262-bfc1-9baa81e205f8)
